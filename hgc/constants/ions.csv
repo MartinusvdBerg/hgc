@@ -4,8 +4,8 @@ H2S,sulfur as mg S/L,read,mg/L,0,calculate,S(-2),as S
 S,total sulfur as mg H2S/L,read,mg/L,0,calculate,S(-2),as H2S
 CO2,carbon dioxide as mg CO2/L,read,mg/L,0,calculate,C(4),as CO2
 # HCO3 is referred to as alkalinity, CO3 is assumed to be zero
-# CO3,carbonate as mg CO3/L,read,mg/L,-2,calculate,C(4),as CO3
-# HCO3,HCO3,read,mg/L,-1,calculate,C(4),as HCO3
+CO3,carbonate as mg CO3/L,read,mg/L,-2,calculate,C(4),as CO3
+HCO3,HCO3,read,mg/L,-1,calculate,C(4),as HCO3
 alkalinity,alkalinity as mg HCO3/L,read,mg/L,-1,calculate,Alkalinity,as HCO3
 O2_field,oxygen as mg O2/L measured in the field,read,mg/L,0,calculate,None,None
 O2_lab,oxygen as mg O2/L measured in lab,read,mg/L,0,calculate,None,None
